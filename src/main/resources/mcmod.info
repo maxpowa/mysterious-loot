@@ -1,0 +1,16 @@
+[
+{
+  "modid": "extrathings",
+  "name": "Extra Things",
+  "description": "Some random extra things that I wanted to add.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["maxpowa"],
+  "credits": "Forge/FML team for making modding much easier",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
