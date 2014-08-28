@@ -1,9 +1,9 @@
-package maxpowa.extrathings.client;
+package maxpowa.mysteriousloot.client;
 
+import maxpowa.mysteriousloot.CommonProxy;
+import maxpowa.mysteriousloot.client.render.CustomSpellbookRenderer;
+import maxpowa.mysteriousloot.items.ExtraItems;
 import net.minecraftforge.client.MinecraftForgeClient;
-import maxpowa.extrathings.CommonProxy;
-import maxpowa.extrathings.client.render.CustomSpellbookRenderer;
-import maxpowa.extrathings.items.ExtraItems;
 
 public class ClientProxy extends CommonProxy {
 	

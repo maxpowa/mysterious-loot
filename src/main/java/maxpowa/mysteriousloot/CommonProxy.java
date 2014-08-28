@@ -1,4 +1,4 @@
-package maxpowa.extrathings;
+package maxpowa.mysteriousloot;
 
 public class CommonProxy {
 

@@ -1,4 +1,4 @@
-package maxpowa.extrathings.client.render;
+package maxpowa.mysteriousloot.client.render;
 
 import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.FontRenderer;

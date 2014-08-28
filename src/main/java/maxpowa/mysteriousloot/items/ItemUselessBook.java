@@ -1,4 +1,4 @@
-package maxpowa.extrathings.items;
+package maxpowa.mysteriousloot.items;
 
 import java.util.List;
 
@@ -10,12 +10,12 @@ import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
 
-public class ItemBasicRapier extends BaseItem {
+public class ItemUselessBook extends BaseItem {
 	
-	public ItemBasicRapier() {
+	public ItemUselessBook() {
 		super();
 		this.setMaxStackSize(1);
-		this.setUnlocalizedName("basicRapier");
+		this.setUnlocalizedName("uselessBook");
 	}
 	
 	@Override
@@ -27,7 +27,7 @@ public class ItemBasicRapier extends BaseItem {
 	@Override
 	@SideOnly(Side.CLIENT)
     public void addInformation(ItemStack stack, EntityPlayer player, List text, boolean p_77624_4_) {
-		text.add("An old, dull raiper.");
+		text.add("This book doesn't appear to be completely useless...");
 	}
 
 }

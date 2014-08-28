@@ -1,4 +1,4 @@
-package maxpowa.extrathings.items;
+package maxpowa.mysteriousloot.items;
 
 import net.minecraft.item.Item;
 import cpw.mods.fml.common.registry.GameRegistry;

@@ -1,6 +1,6 @@
-package maxpowa.extrathings;
+package maxpowa.mysteriousloot;
 
-import maxpowa.extrathings.items.ExtraItems;
+import maxpowa.mysteriousloot.items.ExtraItems;
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.EventHandler;
 import cpw.mods.fml.common.Mod.Instance;
