@@ -1,14 +1,14 @@
 [
 {
-  "modid": "extrathings",
-  "name": "Extra Things",
-  "description": "Some random extra things that I wanted to add.",
+  "modid": "mysteriousloot",
+  "name": "Mysterious Loot",
+  "description": "A mod full of mysterious loot! Mystery!",
   "version": "${version}",
   "mcversion": "${mcversion}",
   "url": "",
   "updateUrl": "",
   "authorList": ["maxpowa"],
-  "credits": "Forge/FML team for making modding much easier",
+  "credits": "Vazkii for rating this 10/10",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []

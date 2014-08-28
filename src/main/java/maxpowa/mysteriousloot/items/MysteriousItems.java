@@ -5,13 +5,13 @@ import net.minecraft.item.Item;
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
-public class ExtraItems {
+public class MysteriousItems {
 
-	public static CreativeTabs tabExtraItems = (new CreativeTabs("extraItems") {
+	public static CreativeTabs tabMysteriousItems = (new CreativeTabs("mysteriousItems") {
 		@Override
 		@SideOnly(Side.CLIENT)
 		public Item getTabIconItem() {
-			return ExtraItems.uselessBook;
+			return MysteriousItems.uselessBook;
 		}
 		
 		@Override
