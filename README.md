@@ -4,20 +4,20 @@ mysterious-loot
 A mysterious loot mod for Minecraft
 
 Ideas:
-Loot System -> Pixel Dungeon
+- Loot System -> Pixel Dungeon
     - You can get books/wands/weapons from mobs as random drops, but you don’t know what they do until you use them
     - They could be negative effects or positive effects
-        ex; You might have a sword that once you use you’re unable to take out of the position that it is in your inventory, until you find a book that removes curses, you would only find this book by testing books until you get one.
-        ex2; you might have armor that doesn’t come off because of a curse, again the only way to take it off would be a book that removes curses or using it until it breaks.
+        - ex; You might have a sword that once you use you’re unable to take out of the position that it is in your inventory, until you find a book that removes curses, you would only find this book by testing books until you get one.
+        - ex2; you might have armor that doesn’t come off because of a curse, again the only way to take it off would be a book that removes curses or using it until it breaks.
     - Some wands might have powerful spells, but only useful for a short amount of time
     - Spellbooks work similar to wands, but take slightly longer to cast
     - What books/wands/weapons have what effects depend on the server/world. Maybe when the world is created it's given a "seed" for the things.
-        eg; server1 uses mod, Red Book is a fire spell, but server2's Red Book is a poison spell - the only way to find out what is what would be by using them, sort of like in-world research. Once you find out what an object does it would properly show its name
+        - ex; server1 uses mod, Red Book is a fire spell, but server2's Red Book is a poison spell - the only way to find out what is what would be by using them, sort of like in-world research. Once you find out what an object does it would properly show its name
     - The more powerful the object, the higher chance that is is cursed
     - In most cases, weapons more powerful than an iron sword will have a ~90% chance of being cursed - making them risky but also rewarding
         - Again, you don't know whether or not the weapon is cursed until you've used it.
 
-Spells:
+- Spells:
     - lightning zap
         - chaining maybe
         - possible different levels
@@ -68,4 +68,3 @@ Spells:
         - only works with soul-bound entities
         - has a limited number of uses as well
         - maximum range of 25 blocks
-    -
