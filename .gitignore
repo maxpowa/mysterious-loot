@@ -6,6 +6,7 @@
 run/
 bin/
 tmp/
+build/
 *.tmp
 *.bak
 *.swp
