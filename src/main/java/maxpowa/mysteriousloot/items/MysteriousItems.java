@@ -18,7 +18,12 @@ public class MysteriousItems {
 		public boolean hasSearchBar() {
 			return true;
 		}
-	}).setBackgroundImageName("item_search.png");
+		
+		@Override
+		public int getSearchbarWidth() {
+			return 71;
+		}
+	}).setBackgroundImageName("mysterious_loot.png");
 
 	public static ItemUselessBook uselessBook;
 	public static ItemBasicRapier basicRapier;

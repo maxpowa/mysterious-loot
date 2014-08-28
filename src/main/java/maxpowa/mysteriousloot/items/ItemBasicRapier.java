@@ -51,14 +51,17 @@ public class ItemBasicRapier extends BaseItem {
         return EnumAction.block;
     }
 	
+	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Override
 	public Multimap getAttributeModifiers(ItemStack stack)
     {
         Multimap multimap = super.getAttributeModifiers(stack);
+        multimap.put(SharedMonsterAttributes.movementSpeed.getAttributeUnlocalizedName(), new AttributeModifier(field_111210_e, "Movement speed", 0.02f, 0));
         multimap.put(SharedMonsterAttributes.attackDamage.getAttributeUnlocalizedName(), new AttributeModifier(field_111210_e, "Weapon modifier", 4, 0));
         return multimap;
     }
 	
+	@SuppressWarnings("unchecked")
 	@Override
 	@SideOnly(Side.CLIENT)
     public void addInformation(ItemStack stack, EntityPlayer player, List text, boolean p_77624_4_) {

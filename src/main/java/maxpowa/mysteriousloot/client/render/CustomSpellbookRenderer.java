@@ -28,12 +28,17 @@ public class CustomSpellbookRenderer implements IItemRenderer {
             FontRenderer fontRenderer = Minecraft.getMinecraft().fontRenderer;
             
             // ====================== Render item texture ======================
+            GL11.glPushMatrix();
+            GL11.glEnable(GL11.GL_BLEND);
             IIcon icon = itemStack.getIconIndex();
             renderItem.renderIcon(0, 0, icon, 16, 16);
+            GL11.glPopMatrix();
             
             // ====================== Render text ======================
             GL11.glEnable(GL11.GL_TEXTURE_2D);
-            String text = Integer.toString(2);
+            String text = "";
+            if (itemStack.getTagCompound() != null && itemStack.getTagCompound().hasKey("MysteriousLevel"))
+            	text = itemStack.getTagCompound().getString("MysteriousLevel");
             boolean unicode = fontRenderer.getUnicodeFlag();
             fontRenderer.setUnicodeFlag(true);
             fontRenderer.drawStringWithShadow(text, 16-fontRenderer.getStringWidth(text), 8, 0x00FFFF);
