@@ -16,14 +16,14 @@ import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 
 
-public class ItemBasicRapier extends BaseItem {
+public class ItemBasicAxe extends BaseItem {
 	
-	public ItemBasicRapier() {
+	public ItemBasicAxe() {
 		super();
 		this.setFull3D();
 		this.setMaxStackSize(1);
-		this.setMaxDamage(73);
-		this.setUnlocalizedName("basicRapier");
+		this.setMaxDamage(54);
+		this.setUnlocalizedName("basicAxe");
 	}
 
 	@Override
@@ -55,16 +55,15 @@ public class ItemBasicRapier extends BaseItem {
 	public Multimap getAttributeModifiers(ItemStack stack)
     {
         Multimap multimap = super.getAttributeModifiers(stack);
-        multimap.put(SharedMonsterAttributes.movementSpeed.getAttributeUnlocalizedName(), new AttributeModifier(field_111210_e, "Movement speed", 0.02f, 0));
-        multimap.put(SharedMonsterAttributes.attackDamage.getAttributeUnlocalizedName(), new AttributeModifier(field_111210_e, "Weapon modifier", 4, 0));
+        multimap.put(SharedMonsterAttributes.attackDamage.getAttributeUnlocalizedName(), new AttributeModifier(field_111210_e, "Weapon modifier", 3, 0));
         return multimap;
     }
-
+	
 	@SuppressWarnings({ "unchecked", "rawtypes" })
 	@Override
 	@SideOnly(Side.CLIENT)
     public void addInformation(ItemStack stack, EntityPlayer player, List text, boolean p_77624_4_) {
-		text.add("An old, dull raiper.");
+		text.add("An old, dull battleaxe.");
 		if (this.getMaxDamage()-stack.getItemDamage() < 15) {
 			text.add("It's falling apart...");
 		}

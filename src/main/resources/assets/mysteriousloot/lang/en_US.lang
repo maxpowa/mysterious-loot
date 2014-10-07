@@ -1,6 +1,7 @@
 ## Creative Tab
-itemGroup.mysteriousItems=Mysterious Items
+itemGroup.mysteriousItems=Mysterious Loot
 
 ## Items
 item.uselessBook.name=Useless Book
 item.basicRapier.name=Basic Rapier
+item.basicAxe.name=Basic Axe

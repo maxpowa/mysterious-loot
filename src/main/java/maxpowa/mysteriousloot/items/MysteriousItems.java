@@ -7,30 +7,32 @@ import cpw.mods.fml.relauncher.SideOnly;
 
 public class MysteriousItems {
 
-	public static CreativeTabs tabMysteriousItems = (new CreativeTabs("mysteriousItems") {
-		@Override
-		@SideOnly(Side.CLIENT)
-		public Item getTabIconItem() {
-			return MysteriousItems.uselessBook;
-		}
-		
-		@Override
-		public boolean hasSearchBar() {
-			return true;
-		}
-		
-		@Override
-		public int getSearchbarWidth() {
-			return 71;
-		}
-	}).setBackgroundImageName("mysterious_loot.png");
+    public static CreativeTabs tabMysteriousItems = (new CreativeTabs("mysteriousItems") {
+        @Override
+        @SideOnly(Side.CLIENT)
+        public Item getTabIconItem() {
+            return MysteriousItems.uselessBook;
+        }
 
-	public static ItemUselessBook uselessBook;
-	public static ItemBasicRapier basicRapier;
+        @Override
+        public int getSearchbarWidth() {
+            return 78;
+        }
 
-	public static void init() {
-		uselessBook = new ItemUselessBook();
-		basicRapier = new ItemBasicRapier();
-	}
+        @Override
+        public boolean hasSearchBar() {
+            return true;
+        }
+    }).setBackgroundImageName("mysteriousloot.png").setNoTitle();
+
+    public static ItemUselessBook uselessBook;
+    public static ItemBasicRapier basicRapier;
+    public static ItemBasicAxe basicAxe;
+
+    public static void init() {
+        uselessBook = new ItemUselessBook();
+        basicRapier = new ItemBasicRapier();
+        basicAxe = new ItemBasicAxe();
+    }
 
 }
